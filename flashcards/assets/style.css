@@ -1,6 +1,6 @@
     body{
         background-color: bisque; 
-        
+
     }
    footer{
         background-color: black;
@@ -10,7 +10,4 @@
         width:100%;
    }
 
-   footer p{
-    text-align: center;
-    font-size: 0.6rem;
-   }
+ 
