@@ -1,27 +1,56 @@
-    body{
-        background:url('bg-desktop.webp'); 
-        font-family:Arial, Helvetica, sans-serif;       
-    }
-  
-    footer {
-        background-color: black;
-        color:white;
-        position: fixed;
-        bottom: 0;
-        width:100%;
-        height: 2rem;
+/* Estilos para o Cabeçalho */
+.cabecalho {
+    background-color: green; /* Define a cor de fundo do cabeçalho como verde */
+    color: white; /* Define a cor do texto dentro do cabeçalho como branco para contraste */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    text-align: center; /* Centraliza o texto do cabeçalho */
+}
 
-   }
+.cabecalho h1 {
+    margin: 0; /* Remove a margem padrão do h1 dentro do cabeçalho */
+    font-size: 2.5em; /* Ajusta o tamanho da fonte do título principal */
+}
 
-   footer p{
+/* Estilos para a Imagem Centralizada */
+.imagem-centralizada { /* Nova classe para centralizar a imagem */
+    display: block; /* Essencial para que margin: auto funcione */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem seja responsiva e não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Você pode adicionar estilos para o h2.principais-festas-parana ou para o link dentro dele */
+.principais-festas-parana h2 a {
+    color: blue; /* Exemplo: link azul */
+    text-decoration: none; /* Exemplo: remove sublinhado */
+}
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 20px;
     text-align: center;
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-   }
+}
 
+.rodape-titulo { /* Estilo para o título do rodapé */
+    margin: 0;
+    font-size: 1.2em;
+}
 
-   #container {
-   display: flex;
-   }
+.rodape-imagem { /* Estilo para a imagem do rodapé */
+    width: 30px; /* Tamanho da imagem */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 10px;
+}
+
+.rodape a { /* Estilo para o link do rodapé */
+    color: lightblue;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
 
    
